@@ -1,0 +1,18 @@
+.TodoItem-li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 3px;
+    margin: 5px;
+}
+
+.TodoList-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.done {
+    text-decoration: line-through;
+}
